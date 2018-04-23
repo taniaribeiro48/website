@@ -1,0 +1,201 @@
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Lato", sans-serif
+}
+
+a {
+  text-decoration:none;
+}
+
+
+.w3-bar,h1,button {
+  	font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+}
+button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.4rem;
+    border-width: 1px;
+    border-color: rgba(1, 1, 1, 0.5);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px
+}
+
+.content {
+    max-width: 60%;
+    margin: auto;
+}
+
+.content.right {
+	align-self: right;
+}
+
+.header-back{
+	background-color: rgba(0, 204, 255, 1);
+ 	color: rgba(255, 255, 255, 1);
+ 	width: 100%;
+ 	max-width: 100%;
+}
+
+.header-bottom {
+	list-style-type: none;
+	padding-top: 40px;
+	 display: flex;
+  	justify-content: center;
+  	overflow: visible;
+}
+
+.inline {
+	font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+	font-weight: 500!important;
+	letter-spacing: 0!important;
+	font-style: normal!important;
+
+	display: inline;
+
+	padding-right: 8px;
+	padding-left: 8px;
+	color: rgba(1,1,1,0.45);
+
+	font-size: 16px;
+}
+
+.font {
+	font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+.line-break {
+	display:grid;
+}
+
+.w3-bar,h1,button {
+	font-family: "Montserrat", sans-serif
+}
+
+.fa-anchor,.fa-coffee {
+	font-size:200px
+}
+
+
+html {
+  background-color: white; 
+}
+
+body {
+  color: white;
+  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: bold;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+.image-header {
+  max-width: 50%;
+  vertical-align: middle;
+}
+
+.card-image{
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: double;	
+  border-color: rgba(1, 1, 1, 0.3);
+  border-width: 1px;
+}
+
+img.card-user-Image {
+	border-radius: 50%;
+	width: 35px;
+}
+
+.btn {
+  background-color: white;
+  color: gray;
+  padding: 0.5rem;
+  text-transform: lowercase;
+  align-self: center;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+.line {
+	display: flex;
+	flex: 0;
+} 
+
+.cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-left {
+  height: 600px;
+  width: 75%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  margin-top: 10px;
+}
+
+.card__text {
+	--x-height-multiplier: 0.342!important;
+    --baseline-multiplier: 0.22!important;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    letter-spacing: -.02em!important;
+    font-weight: 300!important;
+    font-style: normal!important;
+    letter-spacing: 0!important;
+
+	color: gray;
+  	flex: 1 1 auto;
+  	font-size: 1.2rem;
+  	font-weight: 300;
+  	line-height: 2;
+	margin-bottom: 1.25rem;
+}
